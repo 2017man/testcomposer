@@ -1,5 +1,5 @@
 {
-  "name": "2017man/testcomposer",
+  "name": "man/testcomposer",
   "description": "man 第一次制作composer包",
   "keywords": [
     "man",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "man\\": "src/"
+      "man\\": "src/man"
     }
   }
 }
