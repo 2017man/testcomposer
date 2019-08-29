@@ -1,0 +1,25 @@
+{
+  "name": "man/testcomposer",
+  "description": "man 第一次制作composer包",
+  "keywords": [
+    "man",
+    "测试"
+  ],
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "man",
+      "email": "3398284534@qq.com"
+    }
+  ],
+  "require": {
+
+    "php": ">=5.6"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tree\\": "src/"
+    }
+  }
+}
