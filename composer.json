@@ -1,19 +1,25 @@
 {
-    "name": "2017man/hello",
-    "description": "man first composer testing mmmmmmmmmm",
-    "authors": [
-        {
-            "name": "man",
-            "email": "3398284534@qq.com"
-        }
-    ],
-    "license": "MIT",
-    "require": {
-        "php": ">=5.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "2017man\\": "src/hello"
-        }
+  "name": "2017man/hello",
+  "description": "man first composer testing mmmmmmmmmm",
+  "keywords": [
+    "man",
+    "hello",
+    "first",
+    "testcomposer"
+  ],
+  "authors": [
+    {
+      "name": "man",
+      "email": "3398284534@qq.com"
     }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "2017man\\": "2017man/hello"
+    }
+  }
 }
